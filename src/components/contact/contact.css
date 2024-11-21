@@ -1,0 +1,123 @@
+.contact-header{
+  padding: 0px 80px;
+}
+
+.contact-head{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.contact-line{
+  width: 100px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: #1d8d01;
+  margin-bottom: 10px;
+}
+
+.contact-description{
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.contact-container .contact-form {
+  border-radius: 30px;
+  background-color: #1a1a1a;
+  color: #fff;
+  max-width: 360px;
+  padding: 20px;
+}
+
+.contact-form .contact-title {
+  color: #1d8d01;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form .contact-title::before,
+.contact-form .contact-title::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #1d8d01;
+}
+
+.contact-form .contact-title::before {
+  height: 18px;
+  width: 18px;
+}
+
+.contact-form .contact-title::after {
+  height: 20px;
+  width: 20px;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.contact-form .contact-flex {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.contact-names{
+    font-size: 15px;
+}
+
+.contact-form label .contact-input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 8px;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.contact-submit {
+  border: none;
+  background-color: #1d8d01;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  background-color: #27b104;
+}
