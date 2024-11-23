@@ -14,13 +14,26 @@ const About = () => {
         </p>
         <br />
         <h1 className="about-edu">Education & Training:</h1>
-        <p>Degree: Web Development, Bachelor of Arts(3rd Year)</p>
-        <p>Institute: IITSCL</p>
-        <p>Duration: 1 Year</p>
+        <p>
+          Degree: <br /> 2022 - 2024{" "}
+          <li className="about-li">12th Pass UP Board</li>
+          2022 - 2024{" "}
+          <li className="about-li">Bachelor of Arts(3rd Year)</li>
+          2023 - 2024{" "}
+          <li className="about-li">Web development, IITSCL GTB Nagar</li>
+          React Internship, Skillheed - Rohini{" "}
+          <li className="about-li">Dynamic Web-Pages</li>
+          <li className="about-li">Responsive Web Application</li>
+          <li className="about-li">React Components & Jsx</li>
+          <li className="about-li">React Hooks</li>
+          <li className="about-li">State Management</li>
+          <li className="about-li">API Integration</li>
+          <li className="about-li">Routing (React Router)</li>
+        </p>
         <br />
         <h1 className="about-edu">Skills:</h1>
         <p>Frontend Developer</p>
-        <p>HTML, CSS, Bootstrap, JavaScript, React, MYSQL</p>
+        <p>HTML, CSS, Bootstrap, JavaScript, Reactjs, MYSQL, Php, Git</p>
         <br />
         <h1 className="about-edu">Work Experience:</h1>
         <p>Frontend Developer</p>

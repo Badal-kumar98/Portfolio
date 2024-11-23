@@ -17,14 +17,14 @@ const Portfolio = () => {
       description:
         "This is a Myntra Clone in which I created a Myntra Clone using HTML, CSS, JavaScript and ReactJs.",
       image: reactjs,
-      demoLink: "#",
-      sourceCodeLink: "#",
+      demoLink: "https://badal98-mclone.netlify.app",
+      sourceCodeLink: "https://github.com/Badal-kumar98/Myntra-clone",
     },
     {
       title: "Netflix Clone",
       description: "This is a Netflix clone created using React JS and CSS.",
       image: reactjs,
-      demoLink: "#",
+      demoLink: "https://nclone123.netlify.app",
       sourceCodeLink: "#",
     },
   ];
