@@ -1,7 +1,6 @@
 .experience-container {
   margin: 0 auto;
   padding: 0px 80px;
-  height: 100vh;
 }
 
 .experience-content {
@@ -69,4 +68,24 @@
   font-weight: 600;
   color: #333;
   text-align: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .experience-container {
+    padding: 20px 20px;
+  }
+
+  .experience-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  .experience-container {
+    padding: 20px 40px;
+  }
+
+  .experience-title {
+    font-size: 1.8rem;
+  }
 }

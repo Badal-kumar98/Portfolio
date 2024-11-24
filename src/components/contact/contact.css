@@ -121,3 +121,23 @@
 .contact-submit:hover {
   background-color: #27b104;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .contact-header{
+    padding: 0px 20px;
+  }
+
+  .contact-head{
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  .contact-header{
+    padding: 0px 40px;
+  }
+
+  .contact-head{
+    font-size: 1.8rem;
+  }
+}

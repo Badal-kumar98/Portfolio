@@ -7,6 +7,7 @@ import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Portfolio />
         <Experience />
         <Contact />
+        <Footer />
       </div>
       <ToastContainer className={"toast-container"} />
     </>

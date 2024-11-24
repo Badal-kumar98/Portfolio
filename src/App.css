@@ -3,3 +3,9 @@
 .toast-container {
     margin-top: 2.9rem !important;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .toast-container {
+        margin-top: 0rem !important;
+    }
+}

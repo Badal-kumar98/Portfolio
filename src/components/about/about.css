@@ -12,6 +12,7 @@
     height: 3px;
     background-color: #1d8d01;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .about-edu{
@@ -28,4 +29,41 @@
 
 .about-li{
     margin-left: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .about-container{
+        padding: 10px 15px;
+    }
+
+    .about{
+        font-size: 1.5rem;
+    }
+    
+    .line{
+        width: 50px;
+    }
+
+    .about-edu{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    .about-container{
+        padding: 10px 15px;
+        margin-top: 60px;
+    }
+
+    .about{
+        font-size: 1.5rem;
+    }
+    
+    .line{
+        width: 50px;
+    }
+
+    .about-edu{
+        font-size: 1.4rem;
+    }
 }

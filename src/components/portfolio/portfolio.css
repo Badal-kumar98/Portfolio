@@ -1,7 +1,6 @@
 .portfolio-container {
   margin: 0 auto;
   padding: 20px 80px;
-  height: 90vh;
 }
 
 .portfolio-title {
@@ -105,4 +104,19 @@
 
 .source-btn:hover {
   background-color: #218838;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .portfolio-container {
+    padding: 10px 20px;
+  }
+
+  .portfolio-title {
+    font-size: 2rem;
+  }
+
+  .portfolio-subtitle {
+    font-size: 1.2rem;
+  }
 }

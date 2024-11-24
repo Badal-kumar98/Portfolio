@@ -37,11 +37,18 @@ const Home = () => {
               />
             </h1>
             <p className="home-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              A frontend developer plays a pivotal role in crafting the visual
+              and interactive aspects of websites and web applications, bridging
+              the gap between design and functionality. They are responsible for
+              translating complex UI/UX designs into clean, functional code
+              using core web technologies like HTML, CSS, and JavaScript. Beyond
+              the basics, they leverage modern frameworks and libraries such as
+              React to create dynamic user interfaces that offer a seamless and
+              responsive experience across devices. With a keen eye for detail
+              and design aesthetics, frontend developers ensure that the user
+              interface is not only visually appealing but also aligns with
+              branding guidelines and accessibility standards. version control
+              systems (e.g., Git) to streamline the development process.
             </p>
             <div className="media-section">
               <div className="home-media">
